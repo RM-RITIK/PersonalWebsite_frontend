@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import codingImage from "../images/coding.jpg"
 import "./about.css"
+import { AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import {SiUpwork} from 'react-icons/si'
+import {AiFillFacebook} from 'react-icons/ai'
+import {AiFillMediumCircle} from 'react-icons/ai'
 
 export default class About extends Component {
     render(){
@@ -17,6 +22,13 @@ export default class About extends Component {
                     I am currently a final year undergraduate student at Delhi Technological University. My areas of expertise include
                     Web Development, Machine Learning, Deep Learning, Computer Graphics and Virtual Reality.
                 </p>
+                <div className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                    <a href="https://github.com/RM-RITIK" className="socialIcons"><AiFillGithub /></a>
+                    <a href="https://www.linkedin.com/in/ritik-mehta-dtu/" className="socialIcons"><AiFillLinkedin /></a>
+                    <a href="https://www.upwork.com/freelancers/~0111f0f4a048cb9236" className="socialIcons"><SiUpwork /></a>
+                    <a href="https://www.facebook.com/ritik.mehta2012/" className="socialIcons"><AiFillFacebook /></a>
+                    <a href="https://medium.com/@ritikmehta" className="socialIcons"><AiFillMediumCircle /></a>
+                </div>
                 <div className="flex justify-center">
                     <a
                     href="#"

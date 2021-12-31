@@ -1,7 +1,5 @@
-.bg-im{
-    background: url("../images/ritikMehta.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.socialIcons {
+    margin-bottom: 15x;
+    display: inline-block;
+    margin-right: 10px;
 }
