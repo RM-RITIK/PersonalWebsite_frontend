@@ -4,6 +4,7 @@ import { Switch, Route, Link } from "react-router-dom";
 
 import NavBar from './components/navbar';
 import About from './components/about';
+import BlogList from './components/blog-list';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <div className="container mt-3">
           <Switch>
             <Route exact path={["/", "/about"]} component={About} />
+            <Route exact path="/blogs" component={BlogList} />
           </Switch>
         </div>
       </main>

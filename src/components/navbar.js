@@ -12,7 +12,7 @@ export default class NavBar extends Component {
                     <div class="flex-shrink-0 flex items-center w-auto">
                     <img class="h-8 w-8 rounded-full h-8 w-auto" src={ritikMehta} alt=""/>
                     &nbsp;&nbsp;
-                    <a href = "#" class = "text-white">Ritik Mehta</a>
+                    <a href = "/" class = "text-white">Ritik Mehta</a>
                     </div>
                     <div class="hidden sm:block sm:ml-6">
                     <div class="flex space-x-4">
@@ -22,7 +22,7 @@ export default class NavBar extends Component {
 
                         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Skills</a>
 
-                        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                        <a href="/blogs" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
                     </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default class NavBar extends Component {
 
                 <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</a>
 
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+                <a href="/blogs" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
                 </div>
             </div>
             </nav>
