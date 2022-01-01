@@ -5,6 +5,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import NavBar from './components/navbar';
 import About from './components/about';
 import BlogList from './components/blog-list';
+import ProjectList from './components/project-list';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route exact path={["/", "/about"]} component={About} />
             <Route exact path="/blogs" component={BlogList} />
+            <Route exact path="/projects" component = {ProjectList} />
           </Switch>
         </div>
       </main>
