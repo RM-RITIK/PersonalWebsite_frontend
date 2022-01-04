@@ -5,7 +5,7 @@ class ExperienceDataService {
         return http.get("/experience/get-experience");
     }
     addNewExperience(data) {
-        return http.post("/experience/add-experience");
+        return http.post("/experience/add-experience"), data;
     }
 }
 
