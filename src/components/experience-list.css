@@ -1,0 +1,9 @@
+.exp-right {
+    right: 50%; border: 2px solid #FFC100; border-radius: 1%;
+}
+.exp-left {
+    left: 50%; border: 2px solid #FFC100; border-radius: 1%;
+}
+.display-linebreak {
+    white-space: pre-line;
+  }

@@ -6,6 +6,7 @@ import NavBar from './components/navbar';
 import About from './components/about';
 import BlogList from './components/blog-list';
 import ProjectList from './components/project-list';
+import ExperienceList from './components/experience-list';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path={["/", "/about"]} component={About} />
             <Route exact path="/blogs" component={BlogList} />
             <Route exact path="/projects" component = {ProjectList} />
+            <Route exact path="/experiences" component={ExperienceList} />
           </Switch>
         </div>
       </main>
