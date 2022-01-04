@@ -27,7 +27,7 @@ export default class NavBar extends Component {
                     </div>
                 </div>
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                    <a href="#contact" className="inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-gray-300 hover:bg-gray-700 hover:text-white mt-4 md:mt-0">
+                    <a href="/hire-me" className="inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-gray-300 hover:bg-gray-700 hover:text-white mt-4 md:mt-0">
                     Hire Me
                     <ArrowRightIcon className="w-4 h-4 ml-1" />
                     </a>
