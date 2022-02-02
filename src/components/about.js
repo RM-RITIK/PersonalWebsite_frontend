@@ -31,12 +31,12 @@ export default class About extends Component {
                 </div>
                 <div className="flex justify-center">
                     <a
-                    href="#"
+                    href="/hire-me"
                     className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                     Work With Me
                     </a>
                     <a
-                    href="#"
+                    href="/experiences"
                     className="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                     See My Past Work
                     </a>

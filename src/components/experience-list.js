@@ -47,7 +47,7 @@ export default class ExperienceList extends Component {
                     from scratch for companies such as MBA And Beyond and Sellebrate. I have also worked as a Research Assistant at
                     Graphic Reseearch Group, IIITD and Delhi Technological University
                     </p>
-                    <a href="#"
+                    <a href="/hire-me"
                     class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
                     Hire Me</a>
                 </div>
