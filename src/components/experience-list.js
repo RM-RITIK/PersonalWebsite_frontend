@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ExperienceDataService from "../services/experience.service";
+import UserDataService from "../services/user.service"
 import "./experience-list.css"
 
 export default class ExperienceList extends Component {
@@ -9,12 +10,24 @@ export default class ExperienceList extends Component {
         this.refreshList = this.refreshList.bind(this);
 
         this.state = {
-            experiences: []
+            experiences: [],
+            isUserAdmin: false
         };
     }
 
     componentDidMount() {
         this.retrieveExperience();
+        this.isAdmin();
+    }
+
+    isAdmin() {
+        UserDataService.isUserAdmin()
+            .then(response => {
+                console.log(response);
+            })
+            .catch(error => {
+                console.log(error);
+            })
     }
 
     retrieveExperience() {

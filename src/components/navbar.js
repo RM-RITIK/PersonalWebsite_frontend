@@ -22,7 +22,11 @@ export default class NavBar extends Component {
 
                         <a href="/skills" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Skills</a>
 
+                        <a href="/services" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+
                         <a href="/blogs" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+
+                        <a href="/admin-login" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Admin Login</a>
                     </div>
                     </div>
                 </div>
@@ -30,8 +34,7 @@ export default class NavBar extends Component {
                     <a href="/hire-me" className="inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-gray-300 hover:bg-gray-700 hover:text-white mt-4 md:mt-0">
                     Hire Me
                     <ArrowRightIcon className="w-4 h-4 ml-1" />
-                    </a>
-
+                    </a>               
                 </div>
                 </div>
             </div>
@@ -45,6 +48,8 @@ export default class NavBar extends Component {
                 <a href="/skills" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</a>
 
                 <a href="/blogs" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+
+                <a href="/admin-login" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Admin Login</a>
                 </div>
             </div>
             </nav>

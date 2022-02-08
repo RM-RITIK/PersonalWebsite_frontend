@@ -9,6 +9,8 @@ import ProjectList from './components/project-list';
 import ExperienceList from './components/experience-list';
 import SkillList from './components/skill-list';
 import Contact from './components/contact';
+import AdminLogin from './components/admin-login';
+import ServiceList from './components/service-list';
 
 class App extends Component {
   render() {
@@ -23,6 +25,8 @@ class App extends Component {
             <Route exact path="/experiences" component={ExperienceList} />
             <Route exact path="/skills" component={SkillList} />
             <Route exact path="/hire-me" component={Contact} />
+            <Route exact path="/admin-login" component={AdminLogin} />
+            <Route exact path="/services" component={ServiceList} />
           </Switch>
         </div>
       </main>
