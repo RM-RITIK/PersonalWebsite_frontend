@@ -1,0 +1,10 @@
+.pricing-amount:hover {
+    background-color: #4c51bf;
+    color: #fff;
+}
+.pricing-table-2 {
+    margin: 25px;
+}
+.pricing-plans {
+    max-height: 100px;
+}
